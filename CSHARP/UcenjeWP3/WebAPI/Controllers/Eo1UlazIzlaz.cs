@@ -20,7 +20,14 @@ namespace WebAPI.Controllers
 
         }
 
-
+        // Ovdje počinje ruta
+        [HttpGet]
+        [Route("zad1")]
+        public int Zad1(int prvi, int drugi)
+        {
+            return prvi + drugi;
+        }
+        // Ovdje završava ruta
 
 
 
