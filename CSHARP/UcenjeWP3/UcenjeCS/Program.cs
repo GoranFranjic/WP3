@@ -1,7 +1,7 @@
 ﻿
 using UcenjeCS;
 
-CiklicnaMatrica.Izvedi();
+LjubavniKalkulator.Izvedi();
 
 // kada vidimo ključnu riječ new poziva se konstruktor
 

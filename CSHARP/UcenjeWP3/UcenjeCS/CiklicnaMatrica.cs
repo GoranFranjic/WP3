@@ -12,93 +12,68 @@ namespace UcenjeCS
     {
         public static void Izvedi()
         {
-            Console.Write("Broj redaka: ");
-            int redak = int.Parse(Console.ReadLine());
+            bool dev = false;
+
+            Console.Write("Broj redova: ");
+            int redova = int.Parse(Console.ReadLine());
 
             Console.Write("Broj stupaca: ");
-            int stupac = int.Parse(Console.ReadLine());
+            int stupci = int.Parse(Console.ReadLine());
 
-            int a = 0, b = 1, c = 2, d = 3, x = 1, i = 0;
+           // int redova = dev ? 5 : int.Parse(Console.ReadLine());
+           // int stupci = dev ? 5 : int.Parse(Console.ReadLine());
 
-            int[,] Matrix = new int[redak, stupac];
+            int[,] matrica = new int[redova, stupci];
 
-            for (i = 1; i <= stupac; i++)
+            int brojac = 1;
+            int maxBroj = redova * stupci;
+
+            int gornjaGranicaRedova = redova - 1;
+            int gornjaGranicaStupaca = stupci - 1;
+            int donjaGranicaRedova = 0;
+            int donjaGranicaStupaca = 0;
+
+            while (brojac <= maxBroj)
             {
-                Matrix[redak - 1, stupac - i] = x++;
-            }
-            for (i = 2; i <= redak; i++)
-            {
-                Matrix[redak - i, 0] = x++;
-            }
-            for (i = 1; i < stupac; i++)
-            {
-                if (redak <= 1)
+                for (int i = gornjaGranicaStupaca; i >= donjaGranicaStupaca; i--)
                 {
-                    break;
-                }
-                Matrix[0, i] = x++;
-            }
-            for (i = 1; i < redak - 1; i++)
-            {
-                Matrix[i, stupac - 1] = x++;
-            }
-
-            int y = 1;
-            for (y = 1; y < redak && y < stupac; y++)
-            {
-                if (redak * stupac == x + 1)
-                {
-                    break;
-                }
-                y++;
-
-                for (i = c; i < stupac - a; i++)
-                {
-                    if (redak == 2 || stupac == 2 || redak * stupac == x - 1)
-                    {
-                        break;
-                    }
-                    Matrix[redak - c, stupac - i] = x++;
+                    matrica[gornjaGranicaRedova, i] = brojac++;
                 }
 
-                for (i = d; i < redak - a; i++)
+                if (brojac > maxBroj) { break; }
+
+                gornjaGranicaRedova--;
+
+                for (int i = gornjaGranicaRedova; i >= donjaGranicaRedova; i--)
                 {
-                    if (redak == 2 || stupac == 2 || redak * stupac == x - 1)
-                    {
-                        break;
-                    }
-                    Matrix[redak - i, b] = x++;
+                    matrica[i, donjaGranicaStupaca] = brojac++;
                 }
 
-                for (i = c; i < stupac - b; i++)
+                if (brojac > maxBroj) { break; }
+
+                donjaGranicaStupaca++;
+
+                for (int i = donjaGranicaStupaca; i <= gornjaGranicaStupaca; i++)
                 {
-                    if (redak == 2 || stupac == 2 || redak * stupac == x - 1)
-                    {
-                        break;
-                    }
-                    Matrix[b, i] = x++;
+                    matrica[donjaGranicaRedova, i] = brojac++;
                 }
 
-                for (i = c; i < redak - c; i++)
+                if (brojac > maxBroj) { break; }
+
+                donjaGranicaRedova++;
+
+                for (int i = donjaGranicaRedova; i <= gornjaGranicaRedova; i++)
                 {
-                    if (redak == 2 || stupac == 2 || redak * stupac == x - 1)
-                    {
-                        break;
-                    }
-                    Matrix[i, stupac - c] = x++;
+                    matrica[i, gornjaGranicaStupaca] = brojac++;
                 }
-                a++;
-                b++;
-                c++;
-                d++;
+                gornjaGranicaStupaca--;
             }
 
-            Console.WriteLine();
-            for (i = 0; i < redak; i++)
+            for (int i = 0; i < redova; i++)
             {
-                for (int j = 0; j < stupac; j++)
+                for (int j = 0; j < stupci; j++)
                 {
-                    Console.Write(Matrix[i, j] + "\t");
+                    Console.Write(matrica[i, j] + "\t");
                 }
                 Console.WriteLine();
             }
