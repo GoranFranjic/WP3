@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{915F74CF-656F-480B-B2C6-D60A388AF862}|Default">
+  <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebAPI/Controllers/Eo1UlazIzlaz.cs">
+    <Files>
+      <File FileName="UcenjeCS/LjubavniKalkulator.cs" Line="38" Column="18" />
+      <File FileName="UcenjeCS/Program.cs" />
+      <File FileName="WebAPI/Controllers/Eo1UlazIzlaz.cs" Line="1" Column="1" />
+      <File FileName="WebAPI/Controllers/Eo2VarijableTipoviPodatakaOperatori.cs" Line="1" Column="1" />
+      <File FileName="WebAPI/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UcenjeWP3">
+            <Node name="UcenjeCS" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.UcenjeCS PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

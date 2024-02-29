@@ -1,0 +1,15 @@
+/Users/goranfranjic/Documents/GitHub/WP3/CSHARP/UcenjeWP3/UcenjeCS/bin/Debug/net7.0/UcenjeCS
+/Users/goranfranjic/Documents/GitHub/WP3/CSHARP/UcenjeWP3/UcenjeCS/bin/Debug/net7.0/UcenjeCS.deps.json
+/Users/goranfranjic/Documents/GitHub/WP3/CSHARP/UcenjeWP3/UcenjeCS/bin/Debug/net7.0/UcenjeCS.runtimeconfig.json
+/Users/goranfranjic/Documents/GitHub/WP3/CSHARP/UcenjeWP3/UcenjeCS/bin/Debug/net7.0/UcenjeCS.dll
+/Users/goranfranjic/Documents/GitHub/WP3/CSHARP/UcenjeWP3/UcenjeCS/bin/Debug/net7.0/UcenjeCS.pdb
+/Users/goranfranjic/Documents/GitHub/WP3/CSHARP/UcenjeWP3/UcenjeCS/obj/Debug/net7.0/UcenjeCS.csproj.AssemblyReference.cache
+/Users/goranfranjic/Documents/GitHub/WP3/CSHARP/UcenjeWP3/UcenjeCS/obj/Debug/net7.0/UcenjeCS.GeneratedMSBuildEditorConfig.editorconfig
+/Users/goranfranjic/Documents/GitHub/WP3/CSHARP/UcenjeWP3/UcenjeCS/obj/Debug/net7.0/UcenjeCS.AssemblyInfoInputs.cache
+/Users/goranfranjic/Documents/GitHub/WP3/CSHARP/UcenjeWP3/UcenjeCS/obj/Debug/net7.0/UcenjeCS.AssemblyInfo.cs
+/Users/goranfranjic/Documents/GitHub/WP3/CSHARP/UcenjeWP3/UcenjeCS/obj/Debug/net7.0/UcenjeCS.csproj.CoreCompileInputs.cache
+/Users/goranfranjic/Documents/GitHub/WP3/CSHARP/UcenjeWP3/UcenjeCS/obj/Debug/net7.0/UcenjeCS.dll
+/Users/goranfranjic/Documents/GitHub/WP3/CSHARP/UcenjeWP3/UcenjeCS/obj/Debug/net7.0/refint/UcenjeCS.dll
+/Users/goranfranjic/Documents/GitHub/WP3/CSHARP/UcenjeWP3/UcenjeCS/obj/Debug/net7.0/UcenjeCS.pdb
+/Users/goranfranjic/Documents/GitHub/WP3/CSHARP/UcenjeWP3/UcenjeCS/obj/Debug/net7.0/UcenjeCS.genruntimeconfig.cache
+/Users/goranfranjic/Documents/GitHub/WP3/CSHARP/UcenjeWP3/UcenjeCS/obj/Debug/net7.0/ref/UcenjeCS.dll
