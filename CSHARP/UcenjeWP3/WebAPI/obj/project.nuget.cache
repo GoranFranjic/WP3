@@ -1,15 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "6FiinWzYbp/f7+XvVO9/SPyc8+1M9buO5FppBc2tsmVg2Yx6bafPBHeI0IJYY3+4XTWHOU7ONanyBT+ta0n6Mw==",
+  "dgSpecHash": "zHXY3MtVP8XVNDPUhaKMkfAOrV0PxcZi1h/MlwAYk97fXj2uZp38bBkiXUEpBBR5CzO9sJNCNQQ8pxK9Hq8QfA==",
   "success": true,
   "projectFilePath": "/Users/goranfranjic/Documents/GitHub/WP3/CSHARP/UcenjeWP3/WebAPI/WebAPI.csproj",
   "expectedPackageFiles": [
+    "/Users/goranfranjic/.nuget/packages/microsoft.aspnetcore.openapi/7.0.10/microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
     "/Users/goranfranjic/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-    "/Users/goranfranjic/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
-    "/Users/goranfranjic/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
-    "/Users/goranfranjic/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
-    "/Users/goranfranjic/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
-    "/Users/goranfranjic/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+    "/Users/goranfranjic/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/goranfranjic/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/Users/goranfranjic/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/Users/goranfranjic/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/Users/goranfranjic/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
   ],
   "logs": []
 }

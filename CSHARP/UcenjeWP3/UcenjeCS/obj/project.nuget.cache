@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "B3gwzJeAATYUePZoWjmu6uGYc7+qvIyRdyyWB8AFqCkoDrHAYmgR8PiRv6l7C3OqXlwfzUt0VE0Zmotx5lvzbA==",
+  "dgSpecHash": "jW9vS6HFP6MdSDLLJqyzApf/e/QfCAJABGFsuTPfa8kWznA2QTwxwuqFY4lDcDUPZCsKLmzFcLx9Jx6IRs2QQA==",
   "success": true,
   "projectFilePath": "/Users/goranfranjic/Documents/GitHub/WP3/CSHARP/UcenjeWP3/UcenjeCS/UcenjeCS.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/goranfranjic/.nuget/packages/faker.net/2.0.163/faker.net.2.0.163.nupkg.sha512",
+    "/Users/goranfranjic/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/goranfranjic/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

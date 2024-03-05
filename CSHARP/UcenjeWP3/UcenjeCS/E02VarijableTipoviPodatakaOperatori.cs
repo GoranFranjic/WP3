@@ -70,12 +70,12 @@ namespace UcenjeCS
             // operator jednakosti ==
             int k = 2, l = 2;
 
-            Console.WriteLine(k == l);
+            Console.WriteLine(k==l);
 
             // različito !=
-            Console.WriteLine(k != l);
+            Console.WriteLine(k!=l);
             // formatiranje rada konzolnog ispisa
-            Console.WriteLine("{0} {1} {2} {3}", k > l, k >= l, k < l, k <= l);
+            Console.WriteLine("{0} {1} {2} {3}",k>l, k>=l, k<l, k<=l);
 
 
 
@@ -108,7 +108,7 @@ namespace UcenjeCS
             int x = 2, y = 1;
             x = x + ++y; // x = 4, y= 2
             y = --x; // x = 3, y= 3
-            Console.WriteLine(x + y); // 6
+            Console.WriteLine(x+y); // 6
 
 
 

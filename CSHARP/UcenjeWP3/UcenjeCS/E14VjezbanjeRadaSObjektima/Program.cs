@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,8 +10,6 @@ namespace UcenjeCS.E14VjezbanjeRadaSObjektima
     {
 
         private List<Osoba> Osobe;
-
-        public bool PrikaziNaslov { get; private set; }
 
         /// <summary>
         /// Kreirati aplikaciju koja unosi, pregledava, mijenja i briše osobe
@@ -44,22 +41,19 @@ namespace UcenjeCS.E14VjezbanjeRadaSObjektima
 
         private void OdaberiOpciju()
         {
-            switch (Pomocno.UcitajCijeliBroj("Odaberi opciju: "))
+            switch (Pomocno.UcitajCijeliBroj("Odaberi opciju"))
             {
                 case 1:
                     PrikaziOsobe(true);
-                    Izbornik();
                     break;
                 case 2:
                     UnosNoveOsobe();
-                    Izbornik();
                     break;
-                    case 3:
-                        PromjenaOsobe();
-                    Izbornik(); break;
-                    case 4:
+                case 3:
+                    PromjenaOsobe();
+                    break;
+                case 4:
                     BrisanjeOsobe();
-                    Izbornik();
                     break;
                 case 5:
                     Console.WriteLine("Program je završio, Doviđenja");
@@ -74,39 +68,45 @@ namespace UcenjeCS.E14VjezbanjeRadaSObjektima
 
         private void BrisanjeOsobe()
         {
+            if (Osobe.Count == 0)
+            {
+                Console.WriteLine("Nema osoba za mijenjat");
+                return;
+            }
             Console.WriteLine("**********************");
-            Console.WriteLine("*** Brisanje osobe ***");
+            Console.WriteLine("*** Brisanje Osobe ***");
             Console.WriteLine("**********************");
             PrikaziOsobe();
-            int izbor = Pomocno.UcitajCijeliBroj("Izaberi broj osobe", 1, Osobe.Count);
+            int izbor = Pomocno.UcitajCijeliBroj("Izaberi broj osobe", 0, Osobe.Count);
+            if(izbor == 0)
+            {
+                return;
+            }
             Osobe.RemoveAt(izbor - 1);
         }
 
         private void PromjenaOsobe()
-        {
-
+        {   
             if(Osobe.Count == 0)
             {
-
-                {
-                    Console.WriteLine("Nema osobe za promjenu");
-                    return;
-                }
-
+                Console.WriteLine("Nema osoba za mijenjat");
+                return;
             }
             PrikaziOsobe();
-            int izbor = Pomocno.UcitajCijeliBroj("Izaberi broj osobe (0 odustani)" , 0, Osobe.Count);
+            int izbor = Pomocno.UcitajCijeliBroj("Izaberi broj osobe (0 odustani)", 0, Osobe.Count);
             if(izbor == 0)
             {
-
                 return;
-
             }
             var o = Osobe[izbor - 1];
-            o.Ime = Pomocno.UcitajString("Ucitaj ime");
-            o.Prezime = Pomocno.UcitajString("Ucitaj Prezime");
-            o.Dob = Pomocno.UcitajCijeliBroj("Ucitaj dob");
+            o.Ime = Pomocno.UcitajString("Ucitaj ime [" + o.Ime + "]");
+            o.Prezime = Pomocno.UcitajString("Ucitaj prezime");
+            o.Dob = Pomocno.UcitajCijeliBroj("Ucitaj Dob");
+
+
+
         }
+
         private void UnosNoveOsobe()
         {
             Osobe.Add(new()
@@ -117,25 +117,33 @@ namespace UcenjeCS.E14VjezbanjeRadaSObjektima
             });
         }
 
-        private void PrikaziOsobe(bool PrikaziIzbornik=false)
-        {
+        private void PrikaziOsobe(bool PrikaziNaslov = false)
 
+
+        {
             if (PrikaziNaslov)
+
             {
+
                 Console.WriteLine("*********************");
                 Console.WriteLine("** Osobe u sustavu **");
                 Console.WriteLine("*********************");
-            }if(Osobe.Count == 0)
-            {
-                Console.WriteLine("Nema ni jedne osobe");
 
             }
+            if (Osobe.Count == 0)
+            { 
+            Console.WriteLine("Nema ni jedne osobe u sustavu");
+                return;
+            }
+
             int i = 1;
+
             foreach (var o in Osobe)
             {
                 Console.WriteLine(i++ + ". " + o);
+
             }
-            Console.WriteLine("*****************************");
+            Console.WriteLine("*********************");
         }
 
         private void PozdravnaPoruka()

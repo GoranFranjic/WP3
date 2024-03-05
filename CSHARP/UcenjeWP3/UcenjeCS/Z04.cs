@@ -8,18 +8,9 @@ namespace UcenjeCS
 {
     internal class Z04
     {
-        public static void Izvedi()
-        {
-            for (int i = 3; i <= 43; i++)
 
-            {
-                if (i % 1 == 0)
-                {
-                    Console.WriteLine(i);
-                }
-
-            }
-        }
+        // Program od korisnika unosi dva cijela broja
+        // Program ispisuje sve neparne brojeve
+        // Između dva unesena broja
     }
 }
-

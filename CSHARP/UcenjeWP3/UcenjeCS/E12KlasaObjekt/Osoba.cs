@@ -6,24 +6,26 @@ using System.Threading.Tasks;
 
 namespace UcenjeCS.E12KlasaObjekt
 {
+    // Klasa je opisnik objekta - NAUČITI NAPAMET
     internal class Osoba
     {
-        public string? Ime {  get; set; }
 
+        // klasa sadrži svojstva
+        public string? Ime { get; set; } // OOP princip: učahurivanje
         public string? Prezime { get; set; }
 
-        public Mjesto Mjesto { get; set; }
-        public string ImePrezime()
-        {
+        public Mjesto? Mjesto { get; set; }
 
+        // klasa sadrži metode
+        public string ImePrezime() // ova metoda se može pozvati na objektu, ne na klasi
+        {
             return Ime + " " + Prezime;
+        }
 
-        }
-        public static void Izvedi()
+        public static void Izvedi() // Ovu metodu mogu pozvati na klasi, ne na objektu
         {
-        
-        
-        
+           
         }
+
     }
 }
