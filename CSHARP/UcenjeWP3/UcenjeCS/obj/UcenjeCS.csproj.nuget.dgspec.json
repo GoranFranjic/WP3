@@ -1,26 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/goranfranjic/Documents/GitHub/WP3/CSHARP/UcenjeWP3/UcenjeCS/UcenjeCS.csproj": {}
+    "C:\\GitHub\\WP3\\CSHARP\\UcenjeWP3\\UcenjeCS\\UcenjeCS.csproj": {}
   },
   "projects": {
-    "/Users/goranfranjic/Documents/GitHub/WP3/CSHARP/UcenjeWP3/UcenjeCS/UcenjeCS.csproj": {
+    "C:\\GitHub\\WP3\\CSHARP\\UcenjeWP3\\UcenjeCS\\UcenjeCS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/goranfranjic/Documents/GitHub/WP3/CSHARP/UcenjeWP3/UcenjeCS/UcenjeCS.csproj",
+        "projectUniqueName": "C:\\GitHub\\WP3\\CSHARP\\UcenjeWP3\\UcenjeCS\\UcenjeCS.csproj",
         "projectName": "UcenjeCS",
-        "projectPath": "/Users/goranfranjic/Documents/GitHub/WP3/CSHARP/UcenjeWP3/UcenjeCS/UcenjeCS.csproj",
-        "packagesPath": "/Users/goranfranjic/.nuget/packages/",
-        "outputPath": "/Users/goranfranjic/Documents/GitHub/WP3/CSHARP/UcenjeWP3/UcenjeCS/obj/",
+        "projectPath": "C:\\GitHub\\WP3\\CSHARP\\UcenjeWP3\\UcenjeCS\\UcenjeCS.csproj",
+        "packagesPath": "C:\\Users\\goran\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\WP3\\CSHARP\\UcenjeWP3\\UcenjeCS\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/goranfranjic/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\goran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.313/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -2,11 +2,17 @@
 
 using UcenjeCS;
 
+UcenjeCS.LjkubavniKalkulator.Izvedi();
+
+//UcenjeCS.CiklicnaMatrica.Izvedi();
+
+//new UcenjeCS.E18Lambda.Program();
+
 //new UcenjeCS.E17KonzolnaAplikacija.Izbornik();
 
 //new UcenjeCS.E16Vjezbanje.Program();
 
-Test.Izvedi();
+//Test.Izvedi();
 
 //new UcenjeCS.E15Polimorfizam.Program();
 

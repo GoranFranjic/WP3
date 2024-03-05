@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "jW9vS6HFP6MdSDLLJqyzApf/e/QfCAJABGFsuTPfa8kWznA2QTwxwuqFY4lDcDUPZCsKLmzFcLx9Jx6IRs2QQA==",
+  "dgSpecHash": "LJ3mkWEwkR1cVQhU0DiBfKBib+c3Kzu60CdX8WtkZbYROkkoMvDw2n0UaJGT4a/H0sU8oyBce4Xxif5L2FncnQ==",
   "success": true,
-  "projectFilePath": "/Users/goranfranjic/Documents/GitHub/WP3/CSHARP/UcenjeWP3/UcenjeCS/UcenjeCS.csproj",
+  "projectFilePath": "C:\\GitHub\\WP3\\CSHARP\\UcenjeWP3\\UcenjeCS\\UcenjeCS.csproj",
   "expectedPackageFiles": [
-    "/Users/goranfranjic/.nuget/packages/faker.net/2.0.163/faker.net.2.0.163.nupkg.sha512",
-    "/Users/goranfranjic/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "/Users/goranfranjic/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\goran\\.nuget\\packages\\faker.net\\2.0.163\\faker.net.2.0.163.nupkg.sha512",
+    "C:\\Users\\goran\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\goran\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
